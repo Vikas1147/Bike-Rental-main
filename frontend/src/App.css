@@ -1,0 +1,90 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-content li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-content .cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.home-content .cta a {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.home-content .cta a:hover {
+  background-color: #0056b3;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
+}

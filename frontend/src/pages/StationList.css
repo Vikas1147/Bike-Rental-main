@@ -1,0 +1,50 @@
+/* components/StationList.css */
+.station-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .station-list-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .station-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .station-item {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .station-info h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .station-info p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  
+  .book-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-button:hover {
+    background-color: #45a049;
+  }

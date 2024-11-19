@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .nav-left ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-left li {
+    margin-right: 20px;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    margin-right: 10px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+  }

@@ -1,0 +1,19 @@
+import React, { useState } from 'react';
+import './PredictForm.css';
+
+function PredictForm({ onClose }) {
+  // ... (keep your existing state and handlers)
+
+  return (
+    <div className="form-container">
+      <h2>Predict Demand</h2>
+      <form onSubmit={handleSubmit}>
+        {/* ... (your existing form fields) */}
+        <button type="submit" className="submit-button">Predict Demand</button>
+      </form>
+      <button onClick={onClose} className="close-button">Close</button>
+    </div>
+  );
+}
+
+export default PredictForm;
